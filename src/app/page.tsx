@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -5,9 +7,14 @@ export default function Home() {
       <header className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-16">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <div className="mb-6">
-            <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-white/20 flex items-center justify-center text-4xl font-bold">
-              SK
-            </div>
+            <Image
+              src="/Anirudh.jpeg"
+              alt="Sai Anirudh Kondaveeti"
+              width={128}
+              height={128}
+              className="w-32 h-32 mx-auto mb-4 rounded-full object-cover border-4 border-white/20 shadow-lg"
+              priority
+            />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Sai Anirudh Kondaveeti</h1>
           <p className="text-xl md:text-2xl mb-6 opacity-90">Senior Software Engineer at Microsoft</p>
