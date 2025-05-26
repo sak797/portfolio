@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -53,8 +51,8 @@ export default function Home() {
               <p className="text-gray-600 dark:text-gray-400 text-sm mb-3">Bangalore, India</p>
               <ul className="mt-3 space-y-2 text-gray-700 dark:text-gray-300">
                 <li>• Designed and developed a secure crypto token system using blockchain for IOT device interactions. Used hyperledger framework for development. Published a paper and filed a patent.</li>
-                <li>• <strong>Co-inventor:</strong> "Method and apparatus of continuous security in IOT environment using blockchain", USA: US15/956027, Filed Apr 18, 2017.</li>
-                <li>• <strong>Co-author:</strong> "Continuous Security in IoT using Blockchain", proceedings of IEEE ICASSP 2018</li>
+                <li>• <strong>Co-inventor:</strong> &ldquo;Method and apparatus of continuous security in IOT environment using blockchain&rdquo;, USA: US15/956027, Filed Apr 18, 2017.</li>
+                <li>• <strong>Co-author:</strong> &ldquo;Continuous Security in IoT using Blockchain&rdquo;, proceedings of IEEE ICASSP 2018</li>
               </ul>
             </div>
 
@@ -99,7 +97,7 @@ export default function Home() {
               <p className="text-gray-600 dark:text-gray-400 mb-4">
                 Introduced a new meta-dataset called AutoKaggle which consists of structured solutions to all Kaggle competitions organized according to their datasets, tasks, and machine learning pipelines. Developed a baseline algorithm to solve all Kaggle competitions.
               </p>
-              <p className="text-sm text-gray-500 dark:text-gray-400">Co-author: "AutoKaggle: A Clean Meta-Dataset Solving All Kaggle Competitions", proceedings of ACM WSDM 2019.</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">Co-author: &ldquo;AutoKaggle: A Clean Meta-Dataset Solving All Kaggle Competitions&rdquo;, proceedings of ACM WSDM 2019.</p>
             </div>
 
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700">
@@ -112,14 +110,14 @@ export default function Home() {
                 <a href="http://bit.ly/congestion_control" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">Congestion Control</a>
                 <a href="http://bit.ly/security_network" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">Security Network</a>
               </div>
-              <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">Co-author: "Network architecture in the age of programmability", ACM SIGCOMM CCR Editorial 2020.</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">Co-author: &ldquo;Network architecture in the age of programmability&rdquo;, ACM SIGCOMM CCR Editorial 2020.</p>
             </div>
 
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700">
               <h3 className="text-xl font-semibold mb-3">Cyclic-GAN</h3>
               <p className="text-gray-600 dark:text-gray-400 mb-2 text-sm">Fall 2017</p>
               <p className="text-gray-600 dark:text-gray-400 mb-4">
-                As part of "Vision meets ML" coursework implemented a Cyclic-GAN in TensorFlow and trained it on "vangogh2photo" dataset to VanGoignize any photo.
+                As part of &ldquo;Vision meets ML&rdquo; coursework implemented a Cyclic-GAN in TensorFlow and trained it on &ldquo;vangogh2photo&rdquo; dataset to VanGoignize any photo.
               </p>
             </div>
 
@@ -129,16 +127,16 @@ export default function Home() {
               <p className="text-gray-600 dark:text-gray-400 mb-4">
                 Actgaze is a framework to browse webpages using eye gaze. Implemented a posterior probability based filtering over Dynamic Clicking. This filtering technique reduced the number of available clickables drastically and also performed better in general browsing scenario.
               </p>
-              <p className="text-sm text-gray-500 dark:text-gray-400">First author: "Gaze likelihood based clickable filtering", proceedings of ACM IHCI 2016.</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">First author: &ldquo;Gaze likelihood based clickable filtering&rdquo;, proceedings of ACM IHCI 2016.</p>
             </div>
 
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700">
               <h3 className="text-xl font-semibold mb-3">Wisdom of Crowds</h3>
               <p className="text-gray-600 dark:text-gray-400 mb-2 text-sm">Spring 2015</p>
               <p className="text-gray-600 dark:text-gray-400 mb-4">
-                Wisdom of the crowds is the collective opinion of a group of individuals rather than that of a single expert. Investigated on the validity of "Wisdom of Crowds" by experimenting on 1000 different tasks involving 50 different subjects.
+                Wisdom of the crowds is the collective opinion of a group of individuals rather than that of a single expert. Investigated on the validity of &ldquo;Wisdom of Crowds&rdquo; by experimenting on 1000 different tasks involving 50 different subjects.
               </p>
-              <p className="text-sm text-gray-500 dark:text-gray-400">Co-author: "Investigating the Wisdom of Crowds at Scale", proceedings of ACM UIST 2015.</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">Co-author: &ldquo;Investigating the Wisdom of Crowds at Scale&rdquo;, proceedings of ACM UIST 2015.</p>
             </div>
           </div>
         </section>
@@ -150,19 +148,19 @@ export default function Home() {
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700">
               <h3 className="text-xl font-semibold mb-3">Publications</h3>
               <ul className="space-y-3 text-gray-700 dark:text-gray-300">
-                <li>• <strong>Co-author:</strong> "Network architecture in the age of programmability", ACM SIGCOMM CCR Editorial 2020.</li>
-                <li>• <strong>Co-author:</strong> "AutoKaggle: A Clean Meta-Dataset Solving All Kaggle Competitions", proceedings of ACM WSDM 2019.</li>
-                <li>• <strong>Co-author:</strong> "Continuous Security in IoT using Blockchain", proceedings of IEEE ICASSP 2018</li>
-                <li>• <strong>First author:</strong> "Gaze likelihood based clickable filtering", proceedings of ACM IHCI 2016.</li>
-                <li>• <strong>Co-author:</strong> "Investigating the Wisdom of Crowds at Scale", proceedings of ACM UIST 2015.</li>
-                <li>• <strong>Author:</strong> "Distributed Auto-Complete", <a href="https://bit.ly/distributed_autoComplete" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">https://bit.ly/distributed_autoComplete</a></li>
-                <li>• <strong>Author:</strong> "Rethinking network architecture for congestion control & network security in Data Centers", <a href="http://bit.ly/congestion_control" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">http://bit.ly/congestion_control</a> & <a href="http://bit.ly/security_network" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">http://bit.ly/security_network</a></li>
+                <li>• <strong>Co-author:</strong> &ldquo;Network architecture in the age of programmability&rdquo;, ACM SIGCOMM CCR Editorial 2020.</li>
+                <li>• <strong>Co-author:</strong> &ldquo;AutoKaggle: A Clean Meta-Dataset Solving All Kaggle Competitions&rdquo;, proceedings of ACM WSDM 2019.</li>
+                <li>• <strong>Co-author:</strong> &ldquo;Continuous Security in IoT using Blockchain&rdquo;, proceedings of IEEE ICASSP 2018</li>
+                <li>• <strong>First author:</strong> &ldquo;Gaze likelihood based clickable filtering&rdquo;, proceedings of ACM IHCI 2016.</li>
+                <li>• <strong>Co-author:</strong> &ldquo;Investigating the Wisdom of Crowds at Scale&rdquo;, proceedings of ACM UIST 2015.</li>
+                <li>• <strong>Author:</strong> &ldquo;Distributed Auto-Complete&rdquo;, <a href="https://bit.ly/distributed_autoComplete" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">https://bit.ly/distributed_autoComplete</a></li>
+                <li>• <strong>Author:</strong> &ldquo;Rethinking network architecture for congestion control & network security in Data Centers&rdquo;, <a href="http://bit.ly/congestion_control" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">http://bit.ly/congestion_control</a> & <a href="http://bit.ly/security_network" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">http://bit.ly/security_network</a></li>
               </ul>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700">
               <h3 className="text-xl font-semibold mb-3">Patents</h3>
               <p className="text-gray-700 dark:text-gray-300">
-                <strong>Co-inventor:</strong> "Method and apparatus of continuous security in IOT environment using blockchain", USA: US15/956027, Filed Apr 18, 2017.
+                <strong>Co-inventor:</strong> &ldquo;Method and apparatus of continuous security in IOT environment using blockchain&rdquo;, USA: US15/956027, Filed Apr 18, 2017.
               </p>
             </div>
           </div>
@@ -220,7 +218,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold">IITG Alumni Seattle Chapter Head</h3>
               <p className="text-purple-600 dark:text-purple-400 font-medium">Jul 2023 - Present</p>
               <p className="mt-3 text-gray-700 dark:text-gray-300">
-                As an Alumni Chapter Head, my role primarily involves organizing events and programs to engage alumni, and promoting the university's goals among them. I maintain a strong alumni network, and facilitate communication between the university and alumni.
+                As an Alumni Chapter Head, my role primarily involves organizing events and programs to engage alumni, and promoting the university&rsquo;s goals among them. I maintain a strong alumni network, and facilitate communication between the university and alumni.
               </p>
             </div>
             
@@ -252,9 +250,9 @@ export default function Home() {
 
         {/* Contact Section */}
         <section className="text-center">
-          <h2 className="text-3xl font-bold mb-6 text-blue-600 dark:text-blue-400">Let's Connect</h2>
+          <h2 className="text-3xl font-bold mb-6 text-blue-600 dark:text-blue-400">Let&rsquo;s Connect</h2>
           <p className="text-lg mb-8 text-gray-700 dark:text-gray-300">
-            I'm always interested in new opportunities and collaborations.
+            I&rsquo;m always interested in new opportunities and collaborations.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a 
